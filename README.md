@@ -13,3 +13,5 @@
 
 
 [GeneTrajectory](analysis_tools/GeneTrajectory_202405.md) - 202405 GeneTrajectory 基因轨迹分析.
+
+[PathSeq](analysis_tools/PathSeq_202406.md) - 202406 PathSeq 微生物检测.
