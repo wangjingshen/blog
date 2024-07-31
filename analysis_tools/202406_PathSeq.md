@@ -137,7 +137,7 @@ test_seq1 16      NZ_CP013119.1   2067089 0       150M    *       0       0     
 | reference_length | 参考序列的长度（以碱基为单位）；如果没有直接对应的参考序列，则为 0 |
 
 
-## 参考材料
+## 参考
 
 1.Kostic AD, Ojesina AI, Pedamallu CS, Jung J, Verhaak RG, Getz G, Meyerson M. PathSeq: software to identify or discover microbes by deep sequencing of human tissue. Nat Biotechnol. 2011 May;29(5):393-6. doi: 10.1038/nbt.1868. PMID: 21552235; PMCID: PMC3523678.
 

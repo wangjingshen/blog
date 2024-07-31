@@ -114,6 +114,6 @@ GeneTrajectory也存在着一些不足，当一个基因参与多个生物学过
 最后，讨论一下在项目分析时的轨迹分析工具选择，目前建议继续使用相对更成熟的 monocle，因为 monocle 有着丰富的下游分析以及可视化，并且已有较多文章引用，而GeneTrajectory的可视化形式还比较少；如果对轨迹中的基因顺序感兴趣，可以进行 GeneTrajectory 分析作为补充。
 
 
-## 参考文献
+## 参考
 
 Qu, R., Cheng, X., Sefik, E. et al. Gene trajectory inference for single-cell data by optimal transport metrics. Nat Biotechnol (2024). https://doi.org/10.1038/s41587-024-02186-3
