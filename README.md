@@ -16,6 +16,8 @@
 
 [PathSeq](analysis_tools/202406_PathSeq.md) 202406_PathSeq_微生物检测
 
-[Annotation](analysis_tools/202407_Annotation.md) 202407_Annotation_整合分析+自动注释
+[Annotation](analysis_tools/202407_Annotation.md) 202407_Annotation_整合分析及自动注释
 
 [DataFormatTransfer](analysis_tools/202408_DataFormatTransfer.md) 202408_DataFormatTransfer_数据格式转换
+
+[MixDetermination](analysis_tools/202409_MixDetermination.md) 202409_MixDetermination_物种判定及拆分
