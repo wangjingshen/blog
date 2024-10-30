@@ -21,3 +21,5 @@
 [DataFormatTransfer](analysis_tools/202408_DataFormatTransfer.md) 202408_DataFormatTransfer_数据格式转换
 
 [MixDetermination](analysis_tools/202409_MixDetermination.md) 202409_MixDetermination_物种判定及拆分
+
+[FastaToGtf](analysis_tools/202410_FastaToGtf.md) 202410_FastaToGtf_fa生成gtf
