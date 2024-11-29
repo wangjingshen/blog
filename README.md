@@ -23,3 +23,5 @@
 [MixDetermination](analysis_tools/202409_MixDetermination.md) 202409_MixDetermination_物种判定及拆分
 
 [FastaToGtf](analysis_tools/202410_FastaToGtf.md) 202410_FastaToGtf_fa生成gtf
+
+[AdjustReduction](analysis_tips/202411_AdjustReduction.md) 202411_AdjustReduction_调整降维
