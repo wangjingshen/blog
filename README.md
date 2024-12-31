@@ -25,3 +25,5 @@
 [FastaToGtf](analysis_tools/202410_FastaToGtf.md) 202410_FastaToGtf_fa生成gtf
 
 [AdjustReduction](analysis_tips/202411_AdjustReduction.md) 202411_AdjustReduction_调整降维
+
+[MergeFq](analysis_tools/202412_MergeFq.md) 202412_MergeFq_合并fastq文件
