@@ -1,5 +1,5 @@
 ## 前言
-目前转录组和富集文库有小测、加测数据，释放数据和部分自己写的流程需要使用merge之后的数据。
+目前转录组和富集文库有小测、加测数据，释放数据和部分自己写的流程需要使用merge之后的数据，现整理相关内容如下。
 
 ## 解决方案
 根据mapfile里的样本名分别进行fq的merge，然后生成merge后的mapfile。
@@ -28,29 +28,27 @@
 
 原始 mapfile
 ```
-test1    raw_fq/test1_1/    test1
-test1    raw_fq/test1_2/    test1
-test2    raw_fq/test2_1/    test2
-test2    raw_fq/test2_2/    test2
+s1    raw_fq/test1_1/    test1
+s1    raw_fq/test1_2/    test1
+s2    raw_fq/test2_1/    test2
+s2    raw_fq/test2_2/    test2
 ```
 
-merge 后的 fq
+merge 后的 fq, tree outdir/
 ```
-tree test/outdir/
-
-test/outdir/
+outdir/
 ├── test1_fq
-│   ├── test1_R1.fastq.gz
-│   └── test1_R2.fastq.gz
+│   ├── s1_R1.fastq.gz
+│   └── s1_R2.fastq.gz
 └── test2_fq
-    ├── test2_R1.fastq.gz
-    └── test2_R2.fastq.gz
+    ├── s2_R1.fastq.gz
+    └── s2_R2.fastq.gz
 
 2 directories, 4 files
 ```
 
 merge 后的 mapfile
 ```
-test1   outdir/test1_fq/    test1
-test2   outdir/test2_fq/    test2
+s1   outdir/test1_fq/    test1
+s2   outdir/test2_fq/    test2
 ```
