@@ -27,3 +27,5 @@
 [AdjustReduction](analysis_tips/202411_AdjustReduction.md) 202411_AdjustReduction_调整降维
 
 [MergeFq](analysis_tools/202412_MergeFq.md) 202412_MergeFq_合并fastq文件
+
+[scRNASurvivalAnalysis](analysis_tips/202501_scRNASurvivalAnalysis.md) 202501_scRNASurvivalAnalysis_单细胞生存分析
