@@ -29,3 +29,7 @@
 [MergeFq](analysis_tools/202412_MergeFq.md) 202412_MergeFq_合并fastq文件
 
 [scRNASurvivalAnalysis](analysis_tips/202501_scRNASurvivalAnalysis.md) 202501_scRNASurvivalAnalysis_单细胞生存分析
+
+[LinuxLimits](analysis_tips/202502_LinuxLimits.md) 202502_LinuxLimits_Linux文件资源限制
+
+[Miniforge](analysis_tips/202502_Miniforge.md) 202502_Miniforge_conda环境迁移到Miniforge
