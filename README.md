@@ -34,6 +34,6 @@
 
 [Miniforge](analysis_tips/202502_Miniforge.md) 202502_Miniforge_conda环境迁移到Miniforge
 
-[PythonDictMerge](analysis_tips/202503_PythonDictMerge.md) 202503_PythonDictMerge_python字典合并
+[PythonDictMerge](note/202503_PythonDictMerge.md) 202503_PythonDictMerge_python字典合并
 
-[SoftEdit](analysis_tips/202503_SoftEdit.md) 202503_SoftEdit_可编辑安装python包
+[SoftEdit](note/202503_SoftEdit.md) 202503_SoftEdit_可编辑安装python包
