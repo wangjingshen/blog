@@ -38,10 +38,10 @@
 
 [SoftEdit](note/202503_SoftEdit.md) 202503_SoftEdit_可编辑安装python包
 
-[irGSEA](note/202504_irGSEA.md) 202504_irGSEA_基于秩次的单细胞基因集富集分析
+[irGSEA](analysis_tools/202504_irGSEA.md) 202504_irGSEA_基于秩次的单细胞基因集富集分析
 
-[Kallisto](note/202505_Kallisto.md) 202505_Kallisto_单细胞分辨率检测病毒序列
+[Kallisto](analysis_tools/202505_Kallisto.md) 202505_Kallisto_单细胞分辨率检测病毒序列
 
-[Diamond](note/202506_1_Diamond.md) 202506_1_Diamond_未比对reads排查
+[Diamond](analysis_tools/202506_1_Diamond.md) 202506_1_Diamond_未比对reads排查
 
-[ProbePrimerStat](note/202506_2_ProbePrimerStat.md) 202506_2_ProbePrimerStat_探针和引物统计
+[ProbePrimerStat](analysis_tools/202506_2_ProbePrimerStat.md) 202506_2_ProbePrimerStat_探针和引物统计
