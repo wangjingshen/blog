@@ -39,10 +39,10 @@ multi_snp \
 ## 结果
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/202506_2_ProbePrimerStat/RNA_probe_stat.png"
-      alt="Editor" width = "350">
+      alt="Editor" width = "500">
 </div>
 
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/202506_2_ProbePrimerStat/fj_primer_stat.png"
-      alt="Editor" width = "350">
+      alt="Editor" width = "500">
 </div>

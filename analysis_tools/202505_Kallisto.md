@@ -9,8 +9,8 @@
 测试基于 conda 环境 sdev，测试路径为 /SGRNJ06/randd/USER/wangjingshen/rd_project/kallisto/data/r3/。测试分为两块内容，1）基于PalmDB数据库，2）基于PalmDB之外的病毒参考序列。
 
 
-#### 1.PalmDB
-1.1 下载 PalmDB reference files
+### PalmDB
+step1 下载 PalmDB reference files
 ```
 wget https://raw.githubusercontent.com/pachterlab/LSCHWCP_2023/master/PalmDB/ID_to_taxonomy_mapping.csv
 wget https://raw.githubusercontent.com/pachterlab/LSCHWCP_2023/master/PalmDB/palmdb_clustered_t2g.txt
@@ -18,7 +18,7 @@ wget https://raw.githubusercontent.com/pachterlab/LSCHWCP_2023/master/PalmDB/pal
 wget https://raw.githubusercontent.com/pachterlab/LSCHWCP_2023/master/PalmDB/README.md
 ```
 
-1.2 基于 PalmDB 构建 reference
+step2 基于 PalmDB 构建 reference
 ```
 kb ref \
     --aa \
@@ -29,7 +29,7 @@ kb ref \
 ```
 注：--d-list用于屏蔽宿主序列。在鉴定微生物序列过程中出现的一个常见问题是参考基因组数据库的跨物种污染，例如细菌基因组普遍受到人类 DNA 的污染，这可能导致将宿主读段错误地归类为细菌或病毒。因此，可以在与病毒参考比对之前删除宿主读段，以防止将宿主读段错误地归类为病毒。
 
-1.3 比对
+step3 比对
 ```
 kb count \
     -i index.idx \
@@ -44,10 +44,10 @@ kb count \
     ../rawdata/test_R2.fastq.gz
 ```
 
-### 2.自定义基因组
+### 自定义基因组
 有些病毒不在PalmDB数据库中，此处，以乙肝病毒基因组为例。因为提供的是核苷酸序列，因此在构建参考基因组和比对均需要去掉--aa参数，该参数表示提供的基因组文件包含氨基酸序列。
 
-2.1 构建 reference
+step1 构建 reference
 ```
 kb ref \
     --verbose \
@@ -61,7 +61,7 @@ kb ref \
     ../HBV/HBV.gtf
 ```
 
-2.2 比对
+step2 比对
 ```
 kb count \
     -i /SGRNJ06/randd/USER/wangjingshen/rd_project/kallisto/data/r1/hbv_kb_ref/hbv_ref.idx \

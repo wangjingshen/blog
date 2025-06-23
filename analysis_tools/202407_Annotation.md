@@ -20,8 +20,10 @@
 
 2.seurat_cluster.pdf：    Seurat机械分群图
 
-![image](https://github.com/wangjingshen/blog/blob/master/image/202407_Annotation/seurat_cluster.png)
-
+<div align='left'>
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/202407_Annotation/seurat_cluster.png"
+      alt="Editor" width = "350">
+</div>
 
 ## 自动注释 —— SingleR
 
@@ -45,8 +47,10 @@ SingleR 利用纯细胞类型的参考转录组来独立推断每个细胞或每
 
 3.cellular_composition.png（pdf）：     细胞组分图
 
-![image](https://github.com/wangjingshen/blog/blob/master/image/202407_Annotation/seurat_cluster_singleR.png)
-
+<div align='left'>
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/202407_Annotation/seurat_cluster_singleR.png"
+      alt="Editor" width = "350">
+</div>
 
 ## 自动注释 —— auto_assign
 auto_assign 是 CeleScope [3] 中的自动注释流程，这里总结一下使用方法，并增加一些输出文件。
@@ -70,8 +74,10 @@ auto_assign 是 CeleScope [3] 中的自动注释流程，这里总结一下使�
 
 3.cellular_composition.png（pdf）：          细胞组分图
 
-![image](https://github.com/wangjingshen/blog/blob/master/image/202407_Annotation/seurat_cluster_auto_assign.png)
-
+<div align='left'>
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/202407_Annotation/seurat_cluster_auto_assign.png"
+      alt="Editor" width = "350">
+</div>
 
 ## 自动注释 —— CelliD
 CelliD 基于多重对应分析 (Multiple Correspondence Analysis)，可在低维空间中同时表示细胞和基因。然后根据基因与每个细胞的距离对基因进行排序，从而提供每个细胞无偏的基因特征 [4]。
@@ -101,7 +107,10 @@ CelliD 基于多重对应分析 (Multiple Correspondence Analysis)，可在低�
 
 3.cellular_composition.png（pdf）：   细胞组分图
 
-![image](https://github.com/wangjingshen/blog/blob/master/image/202407_Annotation/seurat_cluster_CelliD.png)
+<div align='left'>
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/202407_Annotation/seurat_cluster_CelliD.png"
+      alt="Editor" width = "350">
+</div>
 
 #### 目前支持的器官组织
 | name | 中文名称 |
