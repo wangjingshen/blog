@@ -48,7 +48,7 @@ kb count \
 有些病毒不在PalmDB数据库中，此处，以乙肝病毒基因组为例。因为提供的是核苷酸序列，因此在构建参考基因组和比对均需要去掉--aa参数，该参数表示提供的基因组文件包含氨基酸序列。
 
 2.1 构建 reference
-# Generate a hbv reference index
+```
 kb ref \
     --verbose \
     -t 4 \
