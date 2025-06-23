@@ -1,5 +1,5 @@
 ## 前言
-最近在统计探针和引物时，发现此前的脚本不适配 V3 beads，因此基于 celescope2.6.0 更新了探针和引物脚本，以适配 V3 beads.
+最近在统计探针和引物时，发现此前的脚本不适配 V3 beads，因此基于 celescope2.6.0 更新了探针和引物脚本，以适配 V3 beads。
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/202506_2_ProbePrimerStat/celescope_version.png"
       alt="Editor" width = "350">

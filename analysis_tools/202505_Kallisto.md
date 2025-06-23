@@ -37,11 +37,11 @@ kb count \
     -x 0,0,9,0,25,34,0,50,59:0,60,72:1,0,0 \
     -w /SGRNJ06/randd/USER/zhouyiqi/work/analysis/kb_python/test/1769k-GEXSCOPE-V2.txt \
     --parity single \
-    -o mouse790_1_FJ \
+    -o outdir \
     -t 8 \
     --h5ad \
-    /SGRNJ06/DATA04/23_03/2023_03_20/PN23030805/mouse790_1_FJ/2023-03-20-238/R230314015_R1.fastq.gz \
-    /SGRNJ06/DATA04/23_03/2023_03_20/PN23030805/mouse790_1_FJ/2023-03-20-238/R230314015_R2.fastq.gz
+    ../rawdata/test_R1.fastq.gz \
+    ../rawdata/test_R2.fastq.gz
 ```
 
 ### 2.自定义基因组
@@ -57,8 +57,9 @@ kb ref \
     -i hbv_ref.idx \
     -g hbv_t2g.txt \
     -f1 hbv_transcripts.fa \
-    /OLDSGRNJ03/randd/test_rd/dxh/data/HBV_genome/HBV_NC_003977.2.fasta \
-    /SGRNJ06/randd/USER/wangjingshen/project/huashan_HBV/data/2022-10-18_gtf/HBV.gtf
+    ../HBV_genome/HBV_NC_003977.2.fasta \
+    ../HBV/HBV.gtf
+```
 
 2.2 比对
 ```
@@ -71,8 +72,8 @@ kb count \
     -o mouse790_1_ZL \
     -t 8 \
     --h5ad \
-    /SGRNJ06/DATA04/23_03/2023_03_20/PN23030805/mouse790_1_ZL/2023-03-20-232/R230314009_R1.fastq.gz \
-    /SGRNJ06/DATA04/23_03/2023_03_20/PN23030805/mouse790_1_ZL/2023-03-20-232/R230314009_R2.fastq.gz
+    ../rawdata/test_R1.fastq.gz \
+    ../rawdata/test_R2.fastq.gz
 ```
 
 ## 流程
@@ -86,7 +87,7 @@ python /SGRNJ06/randd/USER/wangjingshen/script_dev/kallisto/script/kallisto.py \
 ```
 
 ## 结果
-主要是一个匹配转录组细胞的病毒UMI表，行为barcode，列为病毒（ID,rep_ID,phylum,class,order,family,genus,species,strandedness）
+主要是一个匹配转录组细胞的病毒UMI表，行为barcode，列为病毒（ID,rep_ID,phylum,class,order,family,genus,species,strandedness）。
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/202505_Kallisto/kallisto_out.png"
       alt="Editor" width = "350">
