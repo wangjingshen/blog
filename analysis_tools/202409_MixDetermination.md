@@ -23,7 +23,7 @@ step2：根据物种判定结果，对矩阵进行拆分并去除不属于对应
 #### 输出
 1.{name}_species.tsv, 物种判定文件；
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/main/image/202409_MixDetermination/test_species.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/202409_MixDetermination/test_species.png"
       alt="Editor" width = "350">
 </div>
 
@@ -32,7 +32,7 @@ step2：根据物种判定结果，对矩阵进行拆分并去除不属于对应
 3.{name}_mouse, 鼠的矩阵。
 
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/main/image/202409_MixDetermination/test_outdir.png" 
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/202409_MixDetermination/test_outdir.png" 
       alt="Editor" width = "220">
 </div>
 
