@@ -90,7 +90,7 @@ python /SGRNJ06/randd/USER/wangjingshen/script_dev/kallisto/script/kallisto.py \
 主要是一个匹配转录组细胞的病毒UMI表，行为barcode，列为病毒（ID,rep_ID,phylum,class,order,family,genus,species,strandedness）。
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/202505_Kallisto/kallisto_out.png"
-      alt="Editor" width = "500">
+      alt="Editor" width = "700">
 </div>
 
 ## reference

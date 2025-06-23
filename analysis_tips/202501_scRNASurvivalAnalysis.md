@@ -7,7 +7,7 @@
 
 #### TCGA
 
-目前常用的是 TCGA 数据库，包括表达谱数据和临床数据，临床数据必须要包括的有患者id、生存状态和生存时间（例如常见的OS和OS.time）。鉴于TCGA在基础研究中的频繁使用，市面上有数不清的TCGA的下载和挖掘教程，比较混乱。实测下来，有个网页可以很便地同时下载到表达数据和临床数据，链接如下：https://xenabrowser.net/datapages/。其中一个数据集如下：
+目前常用的是 TCGA 数据库，包括表达谱数据和临床数据，临床数据必须要包括的有患者id、生存状态和生存时间（例如常见的OS和OS.time）。鉴于TCGA在基础研究中的频繁使用，市面上有数不清的TCGA的下载和挖掘教程，比较混乱。实测下来，有个网页可以很便地同时下载到表达数据和临床数据，链接如下：https://xenabrowser.net/datapages/
 
 ![image](https://github.com/wangjingshen/blog/blob/master/image/202501_scRNASurvivalAnalysis/MMRF.png)
 
