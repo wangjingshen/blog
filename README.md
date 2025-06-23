@@ -34,9 +34,9 @@
 
 [Miniforge](analysis_tips/202502_2_Miniforge.md) 202502_2_Miniforge_conda环境迁移到Miniforge
 
-[PythonDictMerge](note/202503_PythonDictMerge.md) 202503_PythonDictMerge_python字典合并
+[PythonDictMerge](note/202503_1_PythonDictMerge.md) 202503_1_PythonDictMerge_python字典合并
 
-[SoftEdit](note/202503_SoftEdit.md) 202503_SoftEdit_可编辑安装python包
+[SoftEdit](note/202503_2_SoftEdit.md) 202503_2_SoftEdit_可编辑安装python包
 
 [irGSEA](analysis_tools/202504_irGSEA.md) 202504_irGSEA_基于秩次的单细胞基因集富集分析
 
