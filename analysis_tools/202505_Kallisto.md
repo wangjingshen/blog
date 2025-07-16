@@ -77,7 +77,7 @@ kb count \
 ```
 
 ## 流程
-为了方便运行，写了一个小流程。需要提供三个参数，1）mapfile, 4列文件,依次为 library_id fq_dir sample match_dir； 2）workflow，sgr(目前仅支持) or others； 3）host_species, huamn or mouse。
+为了方便运行，写了一个小流程。需要提供三个参数，1）mapfile, 4列文件,依次为 library_id fq_dir sample match_dir； 2）workflow，sgr(目前仅支持) or others； 3）host_species, human or mouse。
 
 ```
 python /SGRNJ06/randd/USER/wangjingshen/script_dev/kallisto/script/kallisto.py \
