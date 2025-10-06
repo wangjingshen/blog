@@ -45,3 +45,15 @@
 [Diamond](analysis_tools/202506_1_Diamond.md) 202506_1_Diamond_未比对reads排查
 
 [ProbePrimerStat](analysis_tools/202506_2_ProbePrimerStat.md) 202506_2_ProbePrimerStat_探针和引物统计
+
+[sc16SDownstreamAnalysis](analysis_tools/202507_1_sc16SDownstreamAnalysis.md) 202507_1_sc16SDownstreamAnalysis_16S下游分析
+
+[FilterEnvironmentalBacteria](analysis_tools/202507_2_FilterEnvironmentalBacteria.md) 202507_2_FilterEnvironmentalBacteria_过滤环境菌
+
+[CHOIR](analysis_tools/202508_CHOIR.md) 202508_CHOIR_聚类统计
+
+[HarmonyFix](analysis_tools/202509_1_HarmonyFix.md) 202509_1_HarmonyFix_harmony修复
+
+[FullTaxonomy](analysis_tools/202509_2_FullTaxonomy.md) 202509_2_FullTaxonomy_完整taxonomy矩阵输出
+
+[GenusReads](analysis_tools/202509_3_GenusReads.md) 202509_3_GenusReads_属reads统计
