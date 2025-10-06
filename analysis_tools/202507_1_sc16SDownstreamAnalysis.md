@@ -3,16 +3,21 @@
 
 ## 分析代码
 分析环境：r4.1_env
+
 代码：/SGRNJ06/randd/USER/wangjingshen/script_dev/sc16S_downstream_analysis/script/
+
 示例：/SGRNJ06/randd/USER/wangjingshen/script_dev/sc16S_downstream_analysis/test/
 
 #### step0 数据预处理
 代码：/SGRNJ06/randd/USER/wangjingshen/script_dev/sc16S_downstream_analysis/script/prepdata.R
+
 参数：
+```
 --rds           注释好的rds
 --df_genus      16S的UMI矩阵, 多个样本用逗号分隔
 --rna_spname    转录组的样本名, 多个样本用逗号分隔
 --outdir        输出目录, default: 00.data
+```
 
 输出：
 1）data_seurat.rds              整合16S genus丰度的rds
