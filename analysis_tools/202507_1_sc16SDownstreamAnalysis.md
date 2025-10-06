@@ -12,12 +12,15 @@
 代码：/SGRNJ06/randd/USER/wangjingshen/script_dev/sc16S_downstream_analysis/script/prepdata.R
 
 参数：
-```
+
 --rds           注释好的rds
+
 --df_genus      16S的UMI矩阵, 多个样本用逗号分隔
+
 --rna_spname    转录组的样本名, 多个样本用逗号分隔
+
 --outdir        输出目录, default: 00.data
-```
+
 
 输出：
 1）data_seurat.rds              整合16S genus丰度的rds
@@ -32,13 +35,17 @@
 代码：/SGRNJ06/randd/USER/wangjingshen/script_dev/sc16S_downstream_analysis/script/basic_plot.R
 
 参数：
-```
+
 --rds               数据预处理生成的rds
+
 --subcluster        用于作图的cluster, default: all
+
 --specific_genus    用于作图的特定genus, 没有就不用填这个参数
+
 --splitgroup        按group分开作图, default: T
+
 --outdir            输出目录, default: 01.basic_plot
-```
+
 结果：
 
 featureplot_total_genus：genus 的总 UMI 的 UMAP 图；
@@ -118,12 +125,15 @@ barplot_plot_data_cluster：作图用到的数据；
 代码：/SGRNJ06/randd/USER/wangjingshen/script_dev/sc16S_downstream_analysis/script/diff.R
 
 参数：
-```
+
 --rds               注释好的rds
+
 --mode              差异分析模式, 按cluster分析或按group分析, default: cluster
+
 --split             拆分进行差异分析, 例如按cluster分析时, 设置split为T时,每个group分别按cluster分析。 default: F
+
 --outdir            输出目录, default: 02.diff
-```
+
 输出：
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/202507_1_sc16SDownstreamAnalysis/02.diff/02_diff_res.png"
@@ -133,25 +143,36 @@ barplot_plot_data_cluster：作图用到的数据；
 
 #### step2 根据genus的差异分析结果画 circos 图
 代码：/SGRNJ06/randd/USER/wangjingshen/script_dev/sc16S_downstream_analysis/script/circos.R
+
 参数：
+
 --stat_df           差异分析的表
+
 --obj               用于作图的对象, clusterA or groupA or all
+
 --top_n             按照genus的均值取 top_n 个, dafault: 10
+
 --outdir            输出目录, default: 02.diff/circos
 
 输出：
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202507_1_sc16SDownstreamAnalysis/02.diff/circos/cluster/circos_MPs.pdf"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/202507_1_sc16SDownstreamAnalysis/02.diff/circos/cluster/circos_MPs.png"
       alt="Editor" width = "500">
 </div>
 
 #### step3 genus检出的转录多样性 vs genus未检出的转录多样性 (一般不输出，暂无项目分析该需求)
 代码：/SGRNJ06/randd/USER/wangjingshen/script_dev/sc16S_downstream_analysis/script/transcriptome_diversity.R
+
 参数：
+
 --rds               rds
+
 --split_group       default: F
+
 --analysis_genus    用于分组的 genus, default: total_genus, 即根据所有genus的检出进行分组
+
 --nFeatures         用于计算转录多样性的基因个数, default:500
+
 --outdir            输出目录, default: 03.transcriptome_diversity
 
 输出：

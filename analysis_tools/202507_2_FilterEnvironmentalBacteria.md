@@ -4,6 +4,7 @@
 
 ### 本地版本
 代码：/SGRNJ06/randd/USER/wangjingshen/script/sc16S_environment_filter/
+
 示例：/SGRNJ06/randd/USER/wangjingshen/script/sc16S_environment_filter/test/
 ```
 source activate celescope2.2.0
@@ -12,7 +13,9 @@ python /SGRNJ06/randd/USER/wangjingshen/script/sc16S_environment_filter/script/p
     --mapfile mapfile
 ```
 参数：
+
 --mapfile   四列，依次为富集分析目录,环境菌文件（一列文件，环境菌genus）, 样本名, 对应转录组的分析目录
+
 --step      要跑的分析模块，默认为 ln_mkdir,filter,report
 
 ```
@@ -28,6 +31,7 @@ cloud-convert paths.txt
 ```
 
 代码：/SGRNJ06/randd/USER/wangjingshen/script/sc16S_environment_filter_cloud/
+
 示例：/SGRNJ06/randd/USER/wangjingshen/script/sc16S_environment_filter_cloud/test/
 ```
 source activate celescope2.2.0
@@ -36,6 +40,7 @@ python /SGRNJ06/randd/USER/wangjingshen/script/sc16S_environment_filter_cloud/sc
     --mapfile mapfile
 ```
 参数：
+
 --mapfile   三列，依次为富集云端分析目录,环境菌文件（一列文件，环境菌genus）, 样本名, 对应转录组的分析目录
 
 ```

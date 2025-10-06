@@ -3,12 +3,17 @@
 
 ## 输出文件补充界门纲目科属种信息
 代码：/SGRNJ06/randd/USER/wangjingshen/script_dev/pathseq_full_tax/script/
+
 示例：/SGRNJ06/randd/USER/wangjingshen/script_dev/pathseq_full_tax/test/
 
 参数：
+
 --pathseq_score    pathseq输出的score
+
 --df_genus         属UMI矩阵
+
 --name             样本名
+
 --outdir           输出目录
 
 原始矩阵：
