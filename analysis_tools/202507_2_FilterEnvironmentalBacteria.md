@@ -45,7 +45,6 @@ python /SGRNJ06/randd/USER/wangjingshen/script/sc16S_environment_filter_cloud/sc
 
 ```
 celescope_pathseq_cloud_path sample rna_cloud2local_path
-
 ```
 
 

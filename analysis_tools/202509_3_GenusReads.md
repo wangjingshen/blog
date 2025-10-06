@@ -23,11 +23,11 @@ celescope_pathseq_path sample taxonomy_id.tsv Klebsiella match_rna_path outdir
 taxonomy_id.tsv是一个两列文件，依次是tax_id，taxonomy，从 02.pathseq/{sample_name}_pathseq_score.txt 中获取。
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/202509_3_GenusReads/Klebsiella_tax.png"
-      alt="Editor" width = "500">
+      alt="Editor" width = "400">
 </div>
 
 输出文件是一个三列文件，依次为barcode，UMI数，reads数
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/202509_3_GenusReads/genus_UMI_reads.png"
-      alt="Editor" width = "500">
+      alt="Editor" width = "400">
 </div>
