@@ -19,7 +19,7 @@ python /SGRNJ06/randd/USER/wangjingshen/script/sc16S_environment_filter/script/p
 --step      要跑的分析模块，默认为 ln_mkdir,filter,report
 
 ```
-pathseq_path /SGRNJ06/randd/USER/wangjingshen/script/sc16S_environment_filter/data/environment_list.tsv sample rna_path
+pathseq_path    /SGRNJ06/randd/USER/wangjingshen/script/sc16S_environment_filter/data/environment_list.tsv    sample    rna_path
 
 ```
 
@@ -44,7 +44,7 @@ python /SGRNJ06/randd/USER/wangjingshen/script/sc16S_environment_filter_cloud/sc
 --mapfile   三列，依次为富集云端分析目录,环境菌文件（一列文件，环境菌genus）, 样本名, 对应转录组的分析目录
 
 ```
-celescope_pathseq_cloud_path sample rna_cloud2local_path
+celescope_pathseq_cloud_path    sample    rna_cloud2local_path
 ```
 
 
