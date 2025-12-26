@@ -16,7 +16,7 @@ python /SGRNJ06/randd/USER/wangjingshen/script_dev/data_release/script/release.p
  --ebv_celescope test/EBV/ \
 ```
 
-#### 参数：
+参数
 ```
     --mapfile_json   要释放数据的相关 mapfile 的 json 文件
     --outdir    结果路径
@@ -50,7 +50,7 @@ prefix1,fq_path1,sample1,match_rna1
 prefix2,fq_path2,sample2,match_rna2
 ```
 
-#### 结果
+## 结果
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/202510_ReleaseData/release.png"
       alt="Editor" width = "400">

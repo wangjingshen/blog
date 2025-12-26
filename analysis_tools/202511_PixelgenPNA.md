@@ -21,7 +21,7 @@ Rscript /SGRNJ06/randd/USER/wangjingshen/script_dev/pixelgen_PNA/script/analysis
     --outdir outdir \
 ```
 
-#### 参数
+参数
 ```
 --pxl pxl文件，以逗号分隔
 --spname 样本名，以逗号分隔
@@ -35,7 +35,7 @@ Rscript /SGRNJ06/randd/USER/wangjingshen/script_dev/pixelgen_PNA/script/analysis
 --outdir 结果路径
 ```
 
-#### 结果
+## 结果
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/202511_PixelgenPNA/pixelgen_PNA_outdir.png"
       alt="Editor" width = "300">
