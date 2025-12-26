@@ -14,7 +14,6 @@ python /SGRNJ06/randd/USER/wangjingshen/script_dev/data_release/script/release.p
  --data_type fastq,rna_matrix,ebv_matrix \
  --rna_celescope test/RNA/ \
  --ebv_celescope test/EBV/ \
-
 ```
 
 #### 参数：
