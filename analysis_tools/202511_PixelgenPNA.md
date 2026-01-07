@@ -2,7 +2,7 @@
 最近测试了 pixelgen 的 PNA数据分析，现进行整理。
 
 ## 背景
-邻近网络检测法（PNA）是 Pixelgen 公司推出的第二代空间网络检测技术，PNA 通过使用带有条形码的抗体和连接寡核苷酸在细胞表面构建一个空间网络，连接寡核苷酸能够记录两种抗体相邻，从而形成单个蛋白质的邻域空间网络[1]。PixelatorR 配合 Seurat 可以对标准分析得到的 pxl 数据进行分析[2]。
+邻近网络检测法（PNA）是 Pixelgen 公司推出的第二代空间网络检测技术，PNA 通过使用带有条形码的抗体和连接寡核苷酸在细胞表面构建一个空间网络，连接寡核苷酸能够记录两种抗体相邻，从而形成单个蛋白质的邻域空间网络[1]。对于标准分析得到的 pxl 数据，可以使用 PixelatorR 辅以 Seurat 进行下游分析[2]。
 
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/202511_PixelgenPNA/pixelgen_PNA_1.png"
