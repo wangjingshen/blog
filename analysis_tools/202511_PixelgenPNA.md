@@ -5,12 +5,12 @@
 邻近网络检测法（PNA）是 Pixelgen 公司推出的第二代空间网络检测技术，PNA 通过使用带有条形码的抗体和连接寡核苷酸在细胞表面构建一个空间网络，连接寡核苷酸能够记录两种抗体相邻，从而形成单个蛋白质的邻域空间网络[1]。对于标准分析得到的 pxl 数据，可以使用 PixelatorR 辅以 Seurat 进行下游分析[2]。
 
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202511_PixelgenPNA/pixelgen_PNA_1.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/202511_PixelgenPNA/pixelgen_PNA_1.jpg"
       alt="Editor" width = "600">
 </div>
 
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202511_PixelgenPNA/pixelgen_PNA_2.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/202511_PixelgenPNA/pixelgen_PNA_2.jpg"
       alt="Editor" width = "600">
 </div>
 
@@ -107,7 +107,7 @@ PNA数据包括三种用于测量背景信号的同型对照抗体，与其他�
 3.2_spatial/DNAM-1_3D.rds   DNAM-1 的 3D展示
 
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202511_PixelgenPNA/DNAM-1_3D.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/202511_PixelgenPNA/DNAM-1_3D.gif"
       alt="Editor" width = "400">
 </div>
 
