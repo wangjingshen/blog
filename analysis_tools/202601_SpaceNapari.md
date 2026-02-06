@@ -46,7 +46,7 @@ Parquet 是一种专为大数据处理系统优化的列式存储文件格式，
 napari操作步骤如下图所示
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/202601_SpaceNapari/napari_step.png"
-      alt="Editor" width = "400">
+      alt="Editor" width = "2000">
 </div>
 
 最终结果如下图
