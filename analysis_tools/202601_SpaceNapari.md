@@ -15,9 +15,13 @@ python /SGRNJ06/randd/USER/wangjingshen/script_dev/space_napari/script/h5_to_zar
 
 输出的 zarr 目录
 dataset.zarr
+
 ├── images/hires        高分辨率 H&E 或荧光图，这里取空转数据里的高分辨图（tissue_hires_image.png）
+
 ├── shapes/spots        parquet格式，存储每个 spot 的坐标
+
 ├── tables/adata        AnnData，表达矩阵（X）、obs、var、obsm、uns...
+
 └── zmetadata           元数据 JSON 文件，记录所有数组的 chunk 大小、压缩方式、维度名
 
 注：
@@ -32,20 +36,22 @@ Parquet 是一种专为大数据处理系统优化的列式存储文件格式，
 
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/202601_SpaceNapari/data_size.png"
-      alt="Editor" width = "400">
+      alt="Editor" width = "300">
 </div>
 
 
 ### step2 使用 napari 选取感兴趣的区域
-服务器打开 napari 有点问题，这一步在本地进行，代码参照 https://github.com/wangjingshen/script_dev/blob/main/space_napari/script/napari.py，napari操作步骤如下图所示
+服务器打开 napari 有点问题，这一步在本地进行，准备步骤代码参照 https://github.com/wangjingshen/script_dev/blob/main/space_napari/script/napari.py
+
+napari操作步骤如下图所示
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202601_SpaceNapari/napair_step.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/202601_SpaceNapari/napari_step.png"
       alt="Editor" width = "400">
 </div>
 
 最终结果如下图
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202601_SpaceNapari/napair_select.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/202601_SpaceNapari/napari_select.png"
       alt="Editor" width = "400">
 </div>
 
