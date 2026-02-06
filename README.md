@@ -63,3 +63,5 @@
 [PixelgenPNA](analysis_tools/202511_PixelgenPNA.md) 202511_PixelgenPNA_PixelgenPNA数据分析
 
 [istar](analysis_tools/202512_istar.md) 202512_istar_空间转录组学超分辨率空间基因表达预测
+
+[SpaceNapari](analysis_tools/202601_SpaceNapari.md) 202601_SpaceNapari_使用Napari选取空转感兴趣的spot
