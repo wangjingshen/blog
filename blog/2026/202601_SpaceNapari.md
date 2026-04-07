@@ -7,7 +7,7 @@
 
 ### step1 celscope space 结果 转成 napari 的输入数据（zarr）
 ```
-python /SGRNJ06/randd/USER/wangjingshen/script_dev/space_napari/script/h5_to_zarr.py \
+python /SGRNJ06/randd/USER/wangjingshen/script/space_napari/script/h5_to_zarr.py \
     --space_dir /SGRNJ06/randd/PROJECT/R25030501_Spatial_FFPE_tgx/20251127/Mint_FFPE_96_96_1119/ \
     --sample Mint_FFPE_96_96_1119 \
     --outdir napari_input 
@@ -28,30 +28,30 @@ dataset.zarr
 Parquet 是一种专为大数据处理系统优化的列式存储文件格式，由 Twitter 和 Cloudera 于 2013 年共同创建。与传统的基于行存储的格式（如 CSV 和 JSON）相比，Parquet 文件格式具有一系列优势：1）通过列式存储数据，Parquet 可以提高查询性能，尤其是对涉及汇总或过滤大量数据的分析工作负载；2）Parquet 的先进压缩和编码技术有助于降低存储成本同时保持高读写性能。可以使用 hexdump 查看数据文件。
 
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/01_SpaceNapari/parquet.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202601_SpaceNapari/parquet.png"
       alt="Editor" width = "400">
 </div>
 
 当数据量较小时，Parquet 会大于 CSV 和 JSON，因为 Parquet 会存储额外的信息，包括特定行组内特定列中的最小值和最大值等信息。此时，查询性能可能会降低，因此一般建议生成的 Parquet 文件在上百 MB 时使用。
 
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/01_SpaceNapari/data_size.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202601_SpaceNapari/data_size.png"
       alt="Editor" width = "300">
 </div>
 
 
 ### step2 使用 napari 选取感兴趣的区域
-服务器打开 napari 有点问题，这一步在本地进行，准备步骤代码参照 https://github.com/wangjingshen/script_dev/blob/main/space_napari/script/napari.py
+服务器打开 napari 有点问题，这一步在本地进行，准备步骤代码参照 https://github.com/wangjingshen/script/blob/main/space_napari/script/napari.py
 
 napari操作步骤如下图所示
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/01_SpaceNapari/napari_step.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202601_SpaceNapari/napari_step.png"
       alt="Editor" width = "2000">
 </div>
 
 最终结果如下图
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/01_SpaceNapari/napari_select.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202601_SpaceNapari/napari_select.png"
       alt="Editor" width = "400">
 </div>
 

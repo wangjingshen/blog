@@ -43,7 +43,7 @@ python /SGRNJ06/randd/USER/wangjingshen/script/loki/script/preprocess.py \
 
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202602_LokiInput/10X_brain_spots.png"
-      alt="Editor" width = "300">
+      alt="Editor" width = "500">
 </div>
 
 2.loki_input 为 loki_encode 步骤生成的文件夹，同一前缀的是针对不同 loki 模块的输入文件，存储的都是编码文件，带header的首行为barcode；

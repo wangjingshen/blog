@@ -72,14 +72,14 @@ istar2spots_bg.png （istar 映射到 spot 的图，并叠加在 istar 的分群
 istar_clusters_seurat.png （seurat 展示 istar 映射到 spot 的图）
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202603_IstarSpots/istar_clusters_seurat.png"
-      alt="Editor" width = "300">
+      alt="Editor" width = "400">
 </div>
 
 
 记录 barcode 的 istar分群的 csv 文件
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202603_IstarSpots/istar_cluster_df.png"
-      alt="Editor" width = "300">
+      alt="Editor" width = "200">
 </div>
 
 
