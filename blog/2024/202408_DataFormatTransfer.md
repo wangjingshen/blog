@@ -12,13 +12,13 @@
 2）seurat 可以 转成 anndata，anndata 转 seurat 可能会报如下的错，这可能的原因之一是 anndata 中 .obs 和 .var 中的列名存在空格或者符号；
 
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202408_DataFormatTransfer/anndata_to_seurat_bug.png" alt="Editor" width = "700">
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2024/202408_DataFormatTransfer/anndata_to_seurat_bug.png" alt="Editor" width = "700">
 </div>
 
 3）seurat 和 loom 可以相互转换，但是 loom 转 seurat 的降维数据丢失。
 
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202408_DataFormatTransfer/loom_to_seurat_bug.png" alt="Editor" width = "800">
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2024/202408_DataFormatTransfer/loom_to_seurat_bug.png" alt="Editor" width = "800">
 </div>
 
 ### sceasy
@@ -58,7 +58,7 @@ sceasy 包是另一个专门用于处理数据转换的包[3]。sceasy 接受的
 
 /SGRNJ06/randd/USER/wangjingshen/script/data_format_trans/test/，以表1中无法相互转换的格式为例，转换结果如下：
 
-![image](https://github.com/wangjingshen/blog/blob/master/image/202408_DataFormatTransfer/data_fromat_transfer_update_results.png)
+![image](https://github.com/wangjingshen/blog/blob/master/image/2024/202408_DataFormatTransfer/data_fromat_transfer_update_results.png)
 
 
 ## 参考

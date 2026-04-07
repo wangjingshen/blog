@@ -7,7 +7,7 @@
 
 许多人类疾病是由病原体引起的，受感染的组织同时含有人类和微生物的核酸，PathSeq可以排除宿主序列后再检测微生物的序列。由于其不需要从头开始了解微生物的序列信息，所以这种无偏倚的微生物检测方法比靶向 PCR 或全微生物阵列方法有所进步 [1]。
 
-![image](https://github.com/wangjingshen/blog/blob/master/image/202406_PathSeq/PathSeq_pipeline.png)
+![image](https://github.com/wangjingshen/blog/blob/master/image/2024/202406_PathSeq/PathSeq_pipeline.png)
 
 
 ## 宿主和微生物的参考

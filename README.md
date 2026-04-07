@@ -12,56 +12,64 @@
 
 
 
-[GeneTrajectory](analysis_tools/202405_GeneTrajectory.md) 202405_GeneTrajectory_基因轨迹分析
+[GeneTrajectory](blog/2024/202405_GeneTrajectory.md) 202405_GeneTrajectory基因轨迹分析
 
-[PathSeq](analysis_tools/202406_PathSeq.md) 202406_PathSeq_微生物检测
+[PathSeq](blog/2024/202406_PathSeq.md) 202406_pathseq微生物检测
 
-[Annotation](analysis_tools/202407_Annotation.md) 202407_Annotation_整合分析及自动注释
+[Annotation](blog/2024/202407_Annotation.md) 202407_整合分析及自动注释
 
-[DataFormatTransfer](analysis_tools/202408_DataFormatTransfer.md) 202408_DataFormatTransfer_数据格式转换
+[DataFormatTransfer](blog/2024/202408_DataFormatTransfer.md) 202408_数据格式转换
 
-[MixDetermination](analysis_tools/202409_MixDetermination.md) 202409_MixDetermination_物种判定及拆分
+[MixDetermination](blog/2024/202409_MixDetermination.md) 202409_物种判定及拆分
 
-[FastaToGtf](analysis_tools/202410_FastaToGtf.md) 202410_FastaToGtf_fa生成gtf
+[FastaToGtf](blog/2024/202410_FastaToGtf.md) 202410_fa生成gtf
 
-[AdjustReduction](analysis_tips/202411_AdjustReduction.md) 202411_AdjustReduction_调整降维
+[AdjustReduction](blog/2024/202411_AdjustReduction.md) 202411_调整降维
 
-[MergeFq](analysis_tools/202412_MergeFq.md) 202412_MergeFq_合并fastq文件
+[MergeFq](blog/2024/202412_MergeFq.md) 202412_合并fastq文件
 
-[scRNASurvivalAnalysis](analysis_tips/202501_scRNASurvivalAnalysis.md) 202501_scRNASurvivalAnalysis_单细胞生存分析
+[scRNASurvivalAnalysis](blog/2025/202501_scRNASurvivalAnalysis.md) 202501_单细胞生存分析
 
-[LinuxLimits](analysis_tips/202502_1_LinuxLimits.md) 202502_1_LinuxLimits_Linux文件资源限制
+[LinuxLimits](blog/2025/202502_1_LinuxLimits.md) 202502_1_Linux文件资源限制
 
-[Miniforge](analysis_tips/202502_2_Miniforge.md) 202502_2_Miniforge_conda环境迁移到Miniforge
+[Miniforge](blog/2025/202502_2_Miniforge.md) 202502_2_conda环境迁移到Miniforge
 
-[PythonDictMerge](note/202503_1_PythonDictMerge.md) 202503_1_PythonDictMerge_python字典合并
+[PythonDictMerge](blog/2025/202503_1_PythonDictMerge.md) 202503_1_python字典合并
 
-[SoftEdit](note/202503_2_SoftEdit.md) 202503_2_SoftEdit_可编辑安装python包
+[SoftEdit](blog/2025/202503_2_SoftEdit.md) 202503_2_可编辑安装python包
 
-[irGSEA](analysis_tools/202504_irGSEA.md) 202504_irGSEA_基于秩次的单细胞基因集富集分析
+[irGSEA](blog/2025/202504_irGSEA.md) 202504_irGSEA_基于秩次的单细胞基因集富集分析
 
-[Kallisto](analysis_tools/202505_Kallisto.md) 202505_Kallisto_单细胞分辨率检测病毒序列
+[Kallisto](blog/2025/202505_Kallisto.md) 202505_基于Kallisto检测单细胞分辨率病毒序列
 
-[Diamond](analysis_tools/202506_1_Diamond.md) 202506_1_Diamond_未比对reads排查
+[Diamond](blog/2025/202506_1_Diamond.md) 202506_1_基于Diamond排查未比对到参考基因组的reads
 
-[ProbePrimerStat](analysis_tools/202506_2_ProbePrimerStat.md) 202506_2_ProbePrimerStat_探针和引物统计
+[ProbePrimerStat](blog/2025/202506_2_ProbePrimerStat.md) 202506_2_探针和引物统计
 
-[sc16SDownstreamAnalysis](analysis_tools/202507_1_sc16SDownstreamAnalysis.md) 202507_1_sc16SDownstreamAnalysis_16S下游分析
+[sc16SDownstreamAnalysis](blog/2025/202507_1_sc16SDownstreamAnalysis.md) 202507_1_pathseq下游分析
 
-[FilterEnvironmentalBacteria](analysis_tools/202507_2_FilterEnvironmentalBacteria.md) 202507_2_FilterEnvironmentalBacteria_过滤环境菌
+[FilterEnvironmentalBacteria](blog/2025/202507_2_FilterEnvironmentalBacteria.md) 202507_2_pathseq过滤环境菌
 
-[CHOIR](analysis_tools/202508_CHOIR.md) 202508_CHOIR_聚类统计
+[CHOIR](blog/2025/202508_CHOIR.md) 202508_CHOIR聚类统计
 
-[HarmonyFix](analysis_tools/202509_1_HarmonyFix.md) 202509_1_HarmonyFix_harmony修复
+[HarmonyFix](blog/2025/202509_1_HarmonyFix.md) 202509_1_harmony修复
 
-[FullTaxonomy](analysis_tools/202509_2_FullTaxonomy.md) 202509_2_FullTaxonomy_完整taxonomy矩阵输出
+[FullTaxonomy](blog/2025/202509_2_FullTaxonomy.md) 202509_2_pathseq完整taxonomy矩阵输出
 
-[GenusReads](analysis_tools/202509_3_GenusReads.md) 202509_3_GenusReads_属reads统计
+[GenusReads](blog/2025/202509_3_GenusReads.md) 202509_3_pathseq属reads统计
 
-[ReleaseData](analysis_tools/202510_ReleaseData.md) 202510_ReleaseData_数据释放
+[ReleaseData](blog/2025/202510_ReleaseData.md) 202510_数据释放
 
-[PixelgenPNA](analysis_tools/202511_PixelgenPNA.md) 202511_PixelgenPNA_PixelgenPNA数据分析
+[PixelgenPNA](blog/2025/202511_PixelgenPNA.md) 202511_PixelgenPNA数据分析
 
-[istar](analysis_tools/202512_istar.md) 202512_istar_空间转录组学超分辨率空间基因表达预测
+[istar](blog/2025/202512_istar.md) 202512_istar空间转录组学超分辨率空间基因表达预测
 
-[SpaceNapari](analysis_tools/202601_SpaceNapari.md) 202601_SpaceNapari_使用Napari选取空转感兴趣的spot
+[SpaceNapari](blog/202601_SpaceNapari.md) 202601_使用Napari选取空转感兴趣的spot
+
+[LokiInput](blog/202602_1_LokiInput.md) 202602_1_Loki输入文件生成
+
+[VscodeProhibitsUpgrading](blog/202602_2_VscodeProhibitsUpgrading.md) 202602_2_vscode禁止升级
+
+[IstarSpots](blog/202603_IstarSpots.md) 202603_istar分群转移到spots
+
+[Larry](blog/202604_Larry.md) 202604_Larry文库分析

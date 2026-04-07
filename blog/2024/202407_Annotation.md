@@ -21,7 +21,7 @@
 2.seurat_cluster.pdf：    Seurat机械分群图
 
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202407_Annotation/seurat_cluster.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2024/202407_Annotation/seurat_cluster.png"
       alt="Editor" width = "350">
 </div>
 
@@ -48,7 +48,7 @@ SingleR 利用纯细胞类型的参考转录组来独立推断每个细胞或每
 3.cellular_composition.png（pdf）：     细胞组分图
 
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202407_Annotation/seurat_cluster_singleR.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2024/202407_Annotation/seurat_cluster_singleR.png"
       alt="Editor" width = "350">
 </div>
 
@@ -75,7 +75,7 @@ auto_assign 是 CeleScope [3] 中的自动注释流程，这里总结一下使�
 3.cellular_composition.png（pdf）：          细胞组分图
 
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202407_Annotation/seurat_cluster_auto_assign.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2024/202407_Annotation/seurat_cluster_auto_assign.png"
       alt="Editor" width = "350">
 </div>
 
@@ -108,7 +108,7 @@ CelliD 基于多重对应分析 (Multiple Correspondence Analysis)，可在低�
 3.cellular_composition.png（pdf）：   细胞组分图
 
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202407_Annotation/seurat_cluster_CelliD.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2024/202407_Annotation/seurat_cluster_CelliD.png"
       alt="Editor" width = "350">
 </div>
 

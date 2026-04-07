@@ -52,6 +52,6 @@ prefix2,fq_path2,sample2,match_rna2
 
 ## 结果
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202510_ReleaseData/release.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2025/202510_ReleaseData/release.png"
       alt="Editor" width = "400">
 </div>

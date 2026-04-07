@@ -2,7 +2,7 @@
 最近在处理研发同事的去批次整合分析需求时，发现转录组(/SGRNJ06/randd/USER/wangjingshen/script/seurat/script/seurat.R)和ATAC数据(/SGRNJ06/randd/USER/wangjingshen/script/Signac_singleR/script/analysis.R) 此前正常使用的 harmony 包（conda环境r4.1_env）报如下错，现整理相关内容如下。
 
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202509_1_HarmonyFix/harmony_error.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2025/202509_1_HarmonyFix/harmony_error.png"
       alt="Editor" width = "500">
 </div>
 

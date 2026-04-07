@@ -18,12 +18,12 @@
 
 原始矩阵：
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202509_2_FullTaxonomy/raw_UMI_matrix.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2025/202509_2_FullTaxonomy/raw_UMI_matrix.png"
       alt="Editor" width = "500">
 </div>
 
 完整信息的矩阵：
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202509_2_FullTaxonomy/full_taxonomy_UMI_matrix.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2025/202509_2_FullTaxonomy/full_taxonomy_UMI_matrix.png"
       alt="Editor" width = "800">
 </div>

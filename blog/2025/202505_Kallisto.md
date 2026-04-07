@@ -1,7 +1,7 @@
 ## 前言
 地球上估计有 10^31 个病毒，其中超过 3*10^5 种病毒可能引起人类疾病，但目前在人类中只有 261 种被检测到。现有的病毒检测方法依赖于参考基因组，但目前NCBI RefSeq仅提供 5,970 种核糖体病毒参考基因组，远低于实际存在的病毒种类。因此，作者扩展了 RNA 测序数据预处理工具 kallisto，在单细胞分辨率下通过将核苷酸序列与氨基酸参考序列进行翻译比对，其中，PalmDB包含296,623个独特的RdRP（RNA依赖的RNA聚合酶）氨基酸序列，代表着估计的10^8到10^12种病毒。
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202505_Kallisto/kallisto.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2025/202505_Kallisto/kallisto.png"
       alt="Editor" width = "350">
 </div>
 
@@ -89,7 +89,7 @@ python /SGRNJ06/randd/USER/wangjingshen/script_dev/kallisto/script/kallisto.py \
 ## 结果
 主要是一个匹配转录组细胞的病毒UMI表，行为barcode，列为病毒（ID,rep_ID,phylum,class,order,family,genus,species,strandedness）。
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202505_Kallisto/kallisto_out.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2025/202505_Kallisto/kallisto_out.png"
       alt="Editor" width = "700">
 </div>
 

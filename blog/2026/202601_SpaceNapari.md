@@ -28,14 +28,14 @@ dataset.zarr
 Parquet 是一种专为大数据处理系统优化的列式存储文件格式，由 Twitter 和 Cloudera 于 2013 年共同创建。与传统的基于行存储的格式（如 CSV 和 JSON）相比，Parquet 文件格式具有一系列优势：1）通过列式存储数据，Parquet 可以提高查询性能，尤其是对涉及汇总或过滤大量数据的分析工作负载；2）Parquet 的先进压缩和编码技术有助于降低存储成本同时保持高读写性能。可以使用 hexdump 查看数据文件。
 
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202601_SpaceNapari/parquet.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/01_SpaceNapari/parquet.png"
       alt="Editor" width = "400">
 </div>
 
 当数据量较小时，Parquet 会大于 CSV 和 JSON，因为 Parquet 会存储额外的信息，包括特定行组内特定列中的最小值和最大值等信息。此时，查询性能可能会降低，因此一般建议生成的 Parquet 文件在上百 MB 时使用。
 
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202601_SpaceNapari/data_size.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/01_SpaceNapari/data_size.png"
       alt="Editor" width = "300">
 </div>
 
@@ -45,13 +45,13 @@ Parquet 是一种专为大数据处理系统优化的列式存储文件格式，
 
 napari操作步骤如下图所示
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202601_SpaceNapari/napari_step.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/01_SpaceNapari/napari_step.png"
       alt="Editor" width = "2000">
 </div>
 
 最终结果如下图
 <div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/202601_SpaceNapari/napari_select.png"
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/01_SpaceNapari/napari_select.png"
       alt="Editor" width = "400">
 </div>
 
