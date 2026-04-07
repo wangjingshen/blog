@@ -11,22 +11,20 @@
 + ...
 
 
+### 2026
 
-[GeneTrajectory](blog/2024/202405_GeneTrajectory.md) 202405_GeneTrajectory基因轨迹分析
+[SpaceNapari](blog/2026/202601_SpaceNapari.md) 202601_使用Napari选取空转感兴趣的spot
 
-[PathSeq](blog/2024/202406_PathSeq.md) 202406_pathseq微生物检测
+[LokiInput](blog/2026/202602_1_LokiInput.md) 202602_1_Loki输入文件生成
 
-[Annotation](blog/2024/202407_Annotation.md) 202407_整合分析及自动注释
+[VscodeProhibitsUpgrading](blog/2026/202602_2_VscodeProhibitsUpgrading.md) 202602_2_vscode禁止升级
 
-[DataFormatTransfer](blog/2024/202408_DataFormatTransfer.md) 202408_数据格式转换
+[IstarSpots](blog/2026/202603_IstarSpots.md) 202603_istar分群转移到spots
 
-[MixDetermination](blog/2024/202409_MixDetermination.md) 202409_物种判定及拆分
+[Larry](blog/2026/202604_Larry.md) 202604_Larry文库分析
 
-[FastaToGtf](blog/2024/202410_FastaToGtf.md) 202410_fa生成gtf
 
-[AdjustReduction](blog/2024/202411_AdjustReduction.md) 202411_调整降维
-
-[MergeFq](blog/2024/202412_MergeFq.md) 202412_合并fastq文件
+### 2025
 
 [scRNASurvivalAnalysis](blog/2025/202501_scRNASurvivalAnalysis.md) 202501_单细胞生存分析
 
@@ -64,12 +62,21 @@
 
 [istar](blog/2025/202512_istar.md) 202512_istar空间转录组学超分辨率空间基因表达预测
 
-[SpaceNapari](blog/202601_SpaceNapari.md) 202601_使用Napari选取空转感兴趣的spot
 
-[LokiInput](blog/202602_1_LokiInput.md) 202602_1_Loki输入文件生成
+### 2024
 
-[VscodeProhibitsUpgrading](blog/202602_2_VscodeProhibitsUpgrading.md) 202602_2_vscode禁止升级
+[GeneTrajectory](blog/2024/202405_GeneTrajectory.md) 202405_GeneTrajectory基因轨迹分析
 
-[IstarSpots](blog/202603_IstarSpots.md) 202603_istar分群转移到spots
+[PathSeq](blog/2024/202406_PathSeq.md) 202406_pathseq微生物检测
 
-[Larry](blog/202604_Larry.md) 202604_Larry文库分析
+[Annotation](blog/2024/202407_Annotation.md) 202407_整合分析及自动注释
+
+[DataFormatTransfer](blog/2024/202408_DataFormatTransfer.md) 202408_数据格式转换
+
+[MixDetermination](blog/2024/202409_MixDetermination.md) 202409_物种判定及拆分
+
+[FastaToGtf](blog/2024/202410_FastaToGtf.md) 202410_fa生成gtf
+
+[AdjustReduction](blog/2024/202411_AdjustReduction.md) 202411_调整降维
+
+[MergeFq](blog/2024/202412_MergeFq.md) 202412_合并fastq文件
