@@ -33,12 +33,6 @@ python /SGRNJ06/randd/USER/wangjingshen/script/loki/script/preprocess.py \
 ```
 
 ## 结果
-
-<div align='left'>
-      <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202602_LokiInput/loki_out.png"
-      alt="Editor" width = "300">
-</div>
-
 1.space_input 为 input 步骤生成的文件夹，相比 celescope 分析目录新增了 image_coord.csv 和 valid_spots.h5ad 文件，h5ad 文件由 h5 文件转换而来并强制要求在切片图上（部分 10X 公开数据存在切片图外的 spot，见下图）；
 
 <div align='left'>
@@ -50,6 +44,10 @@ python /SGRNJ06/randd/USER/wangjingshen/script/loki/script/preprocess.py \
 
 3.loki_input_finetune 为 loki_finetune_encode 步骤生成的文件夹；
 
+<div align='left'>
+      <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202602_LokiInput/loki_out.png"
+      alt="Editor" width = "300">
+</div>
 
 ## reference
 1.https://github.com/GuangyuWangLab2021/Loki
