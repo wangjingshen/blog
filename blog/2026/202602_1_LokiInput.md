@@ -32,7 +32,7 @@ python /SGRNJ06/randd/USER/wangjingshen/script/loki/script/preprocess.py \
 --step      要分析的步骤, 默认为 input,loki_encode,loki_finetune_encode
 ```
 
-结果
+## 结果
 
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202602_LokiInput/loki_out.png"
@@ -51,5 +51,5 @@ python /SGRNJ06/randd/USER/wangjingshen/script/loki/script/preprocess.py \
 3.loki_input_finetune 为 loki_finetune_encode 步骤生成的文件夹；
 
 
-## refernce
+## reference
 1.https://github.com/GuangyuWangLab2021/Loki

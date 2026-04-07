@@ -29,7 +29,7 @@ Parquet 是一种专为大数据处理系统优化的列式存储文件格式，
 
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202601_SpaceNapari/parquet.png"
-      alt="Editor" width = "400">
+      alt="Editor" width = "500">
 </div>
 
 当数据量较小时，Parquet 会大于 CSV 和 JSON，因为 Parquet 会存储额外的信息，包括特定行组内特定列中的最小值和最大值等信息。此时，查询性能可能会降低，因此一般建议生成的 Parquet 文件在上百 MB 时使用。

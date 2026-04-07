@@ -46,7 +46,7 @@ python /SGRNJ06/randd/USER/wangjingshen/script_dev/istarSpots/script/pipeline.py
 --clip                 是否去除超出istar图区域的spot
 ```
 
-结果
+## 结果
 
 istar_labels.png （istar 流程结果，用于验证）
 <div align='left'>
