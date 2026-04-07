@@ -13,70 +13,70 @@
 
 ### 2026
 
-[SpaceNapari](blog/2026/202601_SpaceNapari.md) 202601_使用Napari选取空转感兴趣的spot
+[202601_使用Napari选取空转感兴趣的spot](blog/2026/202601_SpaceNapari.md)
 
-[LokiInput](blog/2026/202602_1_LokiInput.md) 202602_1_Loki输入文件生成
+[202602_1_Loki输入文件生成](blog/2026/202602_1_LokiInput.md)
 
-[VscodeProhibitsUpgrading](blog/2026/202602_2_VscodeProhibitsUpgrading.md) 202602_2_vscode禁止升级
+[202602_2_vscode禁止升级](blog/2026/202602_2_VscodeProhibitsUpgrading.md)
 
-[IstarSpots](blog/2026/202603_IstarSpots.md) 202603_istar分群转移到spots
+[202603_istar分群转移到spots](blog/2026/202603_IstarSpots.md)
 
-[Larry](blog/2026/202604_Larry.md) 202604_Larry文库分析
+[202604_Larry文库分析](blog/2026/202604_Larry.md)
 
 
 ### 2025
 
-[scRNASurvivalAnalysis](blog/2025/202501_scRNASurvivalAnalysis.md) 202501_单细胞生存分析
+[202501_单细胞生存分析](blog/2025/202501_scRNASurvivalAnalysis.md)
 
-[LinuxLimits](blog/2025/202502_1_LinuxLimits.md) 202502_1_Linux文件资源限制
+[202502_1_Linux文件资源限制](blog/2025/202502_1_LinuxLimits.md)
 
-[Miniforge](blog/2025/202502_2_Miniforge.md) 202502_2_conda环境迁移到Miniforge
+[202502_2_conda环境迁移到Miniforge](blog/2025/202502_2_Miniforge.md)
 
-[PythonDictMerge](blog/2025/202503_1_PythonDictMerge.md) 202503_1_python字典合并
+[202503_1_python字典合并](blog/2025/202503_1_PythonDictMerge.md)
 
-[SoftEdit](blog/2025/202503_2_SoftEdit.md) 202503_2_可编辑安装python包
+[202503_2_可编辑安装python包](blog/2025/202503_2_SoftEdit.md)
 
-[irGSEA](blog/2025/202504_irGSEA.md) 202504_irGSEA_基于秩次的单细胞基因集富集分析
+[202504_irGSEA_基于秩次的单细胞基因集富集分析](blog/2025/202504_irGSEA.md)
 
-[Kallisto](blog/2025/202505_Kallisto.md) 202505_基于Kallisto检测单细胞分辨率病毒序列
+[202505_基于Kallisto检测单细胞分辨率病毒序列](blog/2025/202505_Kallisto.md)
 
-[Diamond](blog/2025/202506_1_Diamond.md) 202506_1_基于Diamond排查未比对到参考基因组的reads
+[202506_1_基于Diamond排查未比对到参考基因组的reads](blog/2025/202506_1_Diamond.md)
 
-[ProbePrimerStat](blog/2025/202506_2_ProbePrimerStat.md) 202506_2_探针和引物统计
+[202506_2_探针和引物统计](blog/2025/202506_2_ProbePrimerStat.md)
 
-[sc16SDownstreamAnalysis](blog/2025/202507_1_sc16SDownstreamAnalysis.md) 202507_1_pathseq下游分析
+[202507_1_pathseq下游分析](blog/2025/202507_1_sc16SDownstreamAnalysis.md)
 
-[FilterEnvironmentalBacteria](blog/2025/202507_2_FilterEnvironmentalBacteria.md) 202507_2_pathseq过滤环境菌
+[202507_2_pathseq过滤环境菌](blog/2025/202507_2_FilterEnvironmentalBacteria.md)
 
-[CHOIR](blog/2025/202508_CHOIR.md) 202508_CHOIR聚类统计
+[202508_CHOIR聚类统计](blog/2025/202508_CHOIR.md)
 
-[HarmonyFix](blog/2025/202509_1_HarmonyFix.md) 202509_1_harmony修复
+[202509_1_harmony修复](blog/2025/202509_1_HarmonyFix.md)
 
-[FullTaxonomy](blog/2025/202509_2_FullTaxonomy.md) 202509_2_pathseq完整taxonomy矩阵输出
+[202509_2_pathseq完整taxonomy矩阵输出](blog/2025/202509_2_FullTaxonomy.md)
 
-[GenusReads](blog/2025/202509_3_GenusReads.md) 202509_3_pathseq属reads统计
+[202509_3_pathseq属reads统计](blog/2025/202509_3_GenusReads.md)
 
-[ReleaseData](blog/2025/202510_ReleaseData.md) 202510_数据释放
+[202510_数据释放](blog/2025/202510_ReleaseData.md)
 
-[PixelgenPNA](blog/2025/202511_PixelgenPNA.md) 202511_PixelgenPNA数据分析
+[202511_PixelgenPNA数据分析](blog/2025/202511_PixelgenPNA.md)
 
-[istar](blog/2025/202512_istar.md) 202512_istar空间转录组学超分辨率空间基因表达预测
+[202512_istar空间转录组学超分辨率空间基因表达预测](blog/2025/202512_istar.md)
 
 
 ### 2024
 
-[GeneTrajectory](blog/2024/202405_GeneTrajectory.md) 202405_GeneTrajectory基因轨迹分析
+[202405_GeneTrajectory基因轨迹分析](blog/2024/202405_GeneTrajectory.md)
 
-[PathSeq](blog/2024/202406_PathSeq.md) 202406_pathseq微生物检测
+[202406_pathseq微生物检测](blog/2024/202406_PathSeq.md)
 
-[Annotation](blog/2024/202407_Annotation.md) 202407_整合分析及自动注释
+[202407_整合分析及自动注释](blog/2024/202407_Annotation.md)
 
-[DataFormatTransfer](blog/2024/202408_DataFormatTransfer.md) 202408_数据格式转换
+[202408_数据格式转换](blog/2024/202408_DataFormatTransfer.md)
 
-[MixDetermination](blog/2024/202409_MixDetermination.md) 202409_物种判定及拆分
+[202409_物种判定及拆分](blog/2024/202409_MixDetermination.md)
 
-[FastaToGtf](blog/2024/202410_FastaToGtf.md) 202410_fa生成gtf
+[202410_fa生成gtf](blog/2024/202410_FastaToGtf.md)
 
-[AdjustReduction](blog/2024/202411_AdjustReduction.md) 202411_调整降维
+[202411_调整降维](blog/2024/202411_AdjustReduction.md)
 
-[MergeFq](blog/2024/202412_MergeFq.md) 202412_合并fastq文件
+[202412_合并fastq文件](blog/2024/202412_MergeFq.md)
