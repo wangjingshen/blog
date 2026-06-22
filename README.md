@@ -25,7 +25,7 @@
 
 [202605_istar分群转移到spots更新](blog/2026/202605_istarSpotsUpdate.md)
 
-[202606_istarInTissue](blog/2026/202606_istarInTissue.md)
+[202606_基于组织spots的istar](blog/2026/202606_istarInTissue.md)
 
 
 ### 2025
