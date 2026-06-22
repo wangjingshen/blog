@@ -23,6 +23,10 @@
 
 [202604_Larry文库分析](blog/2026/202604_Larry.md)
 
+[202605_istar分群转移到spots更新](blog/2026/202605_istarSpotsUpdate.md)
+
+[202606_istarInTissue](blog/2026/202606_istarInTissue.md)
+
 
 ### 2025
 
