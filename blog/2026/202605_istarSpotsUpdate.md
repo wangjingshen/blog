@@ -17,4 +17,4 @@ spots 图和 istar 分群图偏移（见下图），这个问题是分析时默�
       alt="Editor" width = "300">
 </div>
 
-使用还是参见 https://github.com/wangjingshen/blog/blob/master/blog/2026/202603_IstarSpots.md
+使用还是参见 https://github.com/wangjingshen/blog/blob/master/blog/2026/202603_istarSpots.md
