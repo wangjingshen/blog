@@ -28,7 +28,7 @@ python /SGRNJ06/randd/USER/wangjingshen/bioinfo_tools/projects/2026/istar/script
 1.1 机械分群图
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202606_istarInTissue/cluster_Intestine.jpg"
-      alt="Editor" width = "280">
+      alt="Editor" width = "300">
 </div>
 
 1.2 istar 原流程判定的背景
@@ -61,7 +61,7 @@ python /SGRNJ06/randd/USER/wangjingshen/bioinfo_tools/projects/2026/istar/script
 2.1 机械分群图
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202606_istarInTissue/cluster_Subcutaneous_tumor.png"
-      alt="Editor" width = "280">
+      alt="Editor" width = "300">
 </div>
 
 2.2 istar 原流程判定的背景
