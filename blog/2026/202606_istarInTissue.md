@@ -23,67 +23,67 @@ python /SGRNJ06/randd/USER/wangjingshen/bioinfo_tools/projects/2026/istar/script
 
 ## 结果
 
-这里以小鼠肠道数据为例
+1 以小鼠肠道数据为例:
 
-机械分群图
+1.1 机械分群图
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202606_istarInTissue/cluster_Intestine.jpg"
-      alt="Editor" width = "300">
+      alt="Editor" width = "280">
 </div>
 
-istar 原流程判定的背景
+1.2 istar 原流程判定的背景
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202606_istarInTissue/istar_mask_Intestine_raw.png"
-      alt="Editor" width = "300">
+      alt="Editor" width = "250">
 </div>
 
-istar 新流程判定的背景
+1.3 istar 新流程判定的背景
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202606_istarInTissue/istar_mask_Intestine_update.png"
-      alt="Editor" width = "300">
+      alt="Editor" width = "250">
 </div>
 
-istar 原流程分群
+1.4 istar 原流程分群
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202606_istarInTissue/istar_cluster_Intestine_raw.png"
-      alt="Editor" width = "300">
+      alt="Editor" width = "250">
 </div>
 
-istar 新流程分群
+1.5 istar 新流程分群
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202606_istarInTissue/istar_cluster_intestine_update.png"
-      alt="Editor" width = "300">
+      alt="Editor" width = "250">
 </div>
 
 
-这里以小鼠膀胱癌原位瘤数据为例，效果会更明显。
+2 以小鼠膀胱癌原位瘤数据为例，效果会更明显。
 
-机械分群图
+2.1 机械分群图
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202606_istarInTissue/cluster_Subcutaneous_tumor.png"
-      alt="Editor" width = "300">
+      alt="Editor" width = "280">
 </div>
 
-istar 原流程判定的背景
+2.2 istar 原流程判定的背景
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202606_istarInTissue/istar_mask_Subcutaneous_tumor_raw.png"
-      alt="Editor" width = "300">
+      alt="Editor" width = "250">
 </div>
 
-istar 新流程判定的背景
+2.3 istar 新流程判定的背景
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202606_istarInTissue/istar_mask_Subcutaneous_tumor_update.png"
-      alt="Editor" width = "300">
+      alt="Editor" width = "250">
 </div>
 
-istar 原流程分群
+2.4 istar 原流程分群
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202606_istarInTissue/istar_cluster_Subcutaneous_tumor_raw.png"
-      alt="Editor" width = "300">
+      alt="Editor" width = "250">
 </div>
 
-istar 新流程分群
+2.5 istar 新流程分群
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202606_istarInTissue/istar_cluster_Subcutaneous_tumor_update.png"
-      alt="Editor" width = "300">
+      alt="Editor" width = "250">
 </div>
