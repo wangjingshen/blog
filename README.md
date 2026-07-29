@@ -19,7 +19,7 @@
 
 [202602_2_vscode禁止升级](blog/2026/202602_2_VscodeProhibitsUpgrading.md)
 
-[202603_istar分群转移到spots](blog/2026/202603_IstarSpots.md)
+[202603_istar分群转移到spots](blog/2026/202603_istarSpots.md)
 
 [202604_Larry文库分析](blog/2026/202604_Larry.md)
 
