@@ -5,7 +5,9 @@ GEXSCOPE FFPE 单细胞核转录组（新格元）采用随机引物原位反转
 
 ## 分析步骤
 step1.使用 STAR 识别嵌合转录本, 参数参照已发表文献[2]
+
 step2.使用 CIRCexplorer2 鉴定环状 RNA
+
 step3.将 CIRCexplorer2 结果分配到 barcode 和 UMI
 
 ## 运行
@@ -31,11 +33,11 @@ python /SGRNJ06/randd/USER/wangjingshen/bioinfo_tools/projects/rna/circexplorer2
 ```
 
 ## 参数
-get_celescope_sjm.py 参数
+#### get_celescope_sjm.py 参数
 
 大部分参数和 celescope 一致，额外的参数主要和 STAR 嵌合检测相关，目前只添加了 outFilterMismatchNmax， 后续根据测试结果考虑纳入其他相关参数。
 
-pipeline.py 参数
+#### pipeline.py 参数
 
 --celescope_dir  celescope 分析目录
 
