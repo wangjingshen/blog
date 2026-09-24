@@ -31,14 +31,20 @@ python /SGRNJ06/randd/USER/wangjingshen/bioinfo_tools/projects/rna/circexplorer2
 ```
 
 ## 参数
-get_celescope_sjm.py 大部分参数和 celescope 一致，额外的参数主要和 STAR 嵌合检测相关，目前只添加了 outFilterMismatchNmax， 后续根据测试结果考虑纳入其他相关参数。
+get_celescope_sjm.py 参数
+
+大部分参数和 celescope 一致，额外的参数主要和 STAR 嵌合检测相关，目前只添加了 outFilterMismatchNmax， 后续根据测试结果考虑纳入其他相关参数。
 
 pipeline.py 参数
 
 --celescope_dir  celescope 分析目录
+
 --name           样本名
+
 --refFlat        参考基因组 refFlat 文件，需要 11 列
+
 --reference_fa   参考基因组 fasta 文件
+
 --match_window   circexplorer2注释环状RNA会修正坐标，这里基于 10 window 将 注释信息 和 barcode、UMI 进行匹配
 
 ### STAR 嵌合检测参数说明（circRNA BSJ 识别）
@@ -67,47 +73,46 @@ STAR 首先搜索 read 的候选比对构型，由 alignTranscriptsPerReadNmax �
 通过前置过滤的 read 会进入嵌合检测流程，STAR 尝试将 read 拆分为两段做嵌合比对。之后依次进行四层嵌合条件校验：两段嵌合片段各自的比对长度不少于 20bp，断点两侧远端锚定区域长度均不少于 20bp，两段比对分数相加不低于 1，并且拆分后的两个嵌合片段都必须是基因组唯一比对。只有全部条件都满足，这条嵌合断点才会输出到 Chimeric.out.junction 文件。
 
 具体而言
+
 Step1：比对候选搜索阶段
-参数：--alignTranscriptsPerReadNmax 10000
-STAR 最多搜索 10000 种 read 的比对构型，一旦达到上限就停止检索，不再查找更多候选比对方案。该设置用于避免比对搜索提前终止，防止遗漏 BSJ 嵌合的候选比对。本步骤不会丢弃 read，仅限制候选比对的搜索数量。
+
+参数：--alignTranscriptsPerReadNmax 10000，STAR 最多搜索 10000 种 read 的比对构型，一旦达到上限就停止检索，不再查找更多候选比对方案。该设置用于避免比对搜索提前终止，防止遗漏 BSJ 嵌合的候选比对。本步骤不会丢弃 read，仅限制候选比对的搜索数量。
 
 Step2：整条 read 多定位前置过滤（线性层面）
-参数：--outFilterMultimapNmax 2
-若一条 read 可比对到基因组上超过 2 个不同位置，该 read 会被直接丢弃，不再参与后续比对和嵌合检测。只有基因组定位位点数量小于或等于 2 的 read，才会进入下一阶段处理。
+
+参数：--outFilterMultimapNmax 2，若一条 read 可比对到基因组上超过 2 个不同位置，该 read 会被直接丢弃，不再参与后续比对和嵌合检测。只有基因组定位位点数量小于或等于 2 的 read，才会进入下一阶段处理。
 
 Step3：整条 read 总错配过滤
-参数：--outFilterMismatchNmax 4
-评估该 read 最优比对结果的错配数量，当错配碱基总数大于 4 时，丢弃这条 read。错配数不超过 4 的 read 可继续后续流程；插入缺失（gap/indel）不计入错配统计，但会影响比对打分。
+
+参数：--outFilterMismatchNmax 4，评估该 read 最优比对结果的错配数量，当错配碱基总数大于 4 时，丢弃这条 read。错配数不超过 4 的 read 可继续后续流程；插入缺失（gap/indel）不计入错配统计，但会影响比对打分。
 
 Step4：线性剪接内含子长度限制
-参数：--alignIntronMax 1000000
-该参数仅针对正常 mRNA 的线性剪接，限定线性内含子最大长度为 1 Mb。环状 RNA 反向剪接产生的基因组间隔不受该参数约束，不会对 BSJ 断点进行筛选。
+
+参数：--alignIntronMax 1000000，该参数仅针对正常 mRNA 的线性剪接，限定线性内含子最大长度为 1 Mb。环状 RNA 反向剪接产生的基因组间隔不受该参数约束，不会对 BSJ 断点进行筛选。
 
 Step5：嵌合检测与 chim 系列参数逐级过滤
+
 只有通过前面所有过滤条件的 read，STAR 才会尝试将 read 拆分为 A、B 两段进行嵌合比对，并依次执行四层校验：
 
 Step5-1 嵌合片段最小比对长度
-参数：--chimSegmentMin 20
-拆分得到的 A、B 两个嵌合片段，各自有效比对长度均不能少于 20 bp；任意一段比对长度不足 20 bp，即丢弃该嵌合 read。
+
+参数：--chimSegmentMin 20，拆分得到的 A、B 两个嵌合片段，各自有效比对长度均不能少于 20 bp；任意一段比对长度不足 20 bp，即丢弃该嵌合 read。
 
 Step5-2 嵌合断点远端锚定长度
-参数：--chimJunctionOverhangMin 20
-A、B 两段远离断点一侧的锚定区域（overhang），都需要至少 20 bp。任意一端锚定片段长度不足，则丢弃这条嵌合 junction。
+
+参数：--chimJunctionOverhangMin 20，A、B 两段远离断点一侧的锚定区域（overhang），都需要至少 20 bp。任意一端锚定片段长度不足，则丢弃这条嵌合 junction。
 
 Step5-3 嵌合比对总分阈值
 
-参数：--chimScoreMin 1
-A 段比对得分与 B 段比对得分之和不能低于 1，总分小于 1 则丢弃。比对得分计算规则：匹配碱基数 − 错配罚分 − gap 罚分。
+参数：--chimScoreMin 1，A 段比对得分与 B 段比对得分之和不能低于 1，总分小于 1 则丢弃。比对得分计算规则：匹配碱基数 − 错配罚分 − gap 罚分。
 
 Step5-4 嵌合片段多比对控制
 
-参数：--chimMultimapNmax 0
-参数设为 0 时启用旧版嵌合检测算法，要求 A 片段和 B 片段均为基因组唯一比对。只要 A、B 任意一个嵌合片段存在多 mapping，该嵌合 junction 直接丢弃。
+参数：--chimMultimapNmax 0，参数设为 0 时启用旧版嵌合检测算法，要求 A 片段和 B 片段均为基因组唯一比对。只要 A、B 任意一个嵌合片段存在多 mapping，该嵌合 junction 直接丢弃。
 
 Step6：结果输出
 
-参数：--chimOutType Junctions
-全部通过上述所有过滤条件的嵌合断点信息，最终输出至 Chimeric.out.junction 文件。
+参数：--chimOutType Junctions，全部通过上述所有过滤条件的嵌合断点信息，最终输出至 Chimeric.out.junction 文件。
 
 
 ### 参数优化
@@ -122,11 +127,15 @@ chimMultimapNmax       从 0 放宽到 1，可以检出
 chimMultimapNmax 管控被 STAR 拆分后的两段嵌合片段的多重比对，与全局参数 outFilterMultimapNmax 属于两套独立过滤体系。
 
 当 chimMultimapNmax 0 时，启用 STAR 旧版 BSJ 检测逻辑：嵌合读段拆分得到的两个片段，都要求为唯一比对（每个片段仅能匹配基因组上 1 个位置）。一旦 A 片段或者 B 片段任意一段存在多比对情况，这条嵌合 read 就会被直接丢弃。
+
 优点：原始检出结果背景噪音低，假阳性少；
+
 缺点：FFPE 样本 RNA 存在降解、碱基损伤，很多片段会落入多比对区域，BSJ 检出灵敏度偏低，容易出现检出数量少甚至无结果。
 
 当 chimMultimapNmax 设为 1 时，允许嵌合片段最多 1 个多重比对位点：两段嵌合片段中，最多其中一段可以存在多比对。放宽了嵌合片段的比对唯一性限制，能保留更多 BSJ 候选 read。
+
 优点：提升 BSJ 检出灵敏度，适配 FFPE 降解样本；
+
 缺点：候选集中混入更多噪音，假阳性风险会上升。
 
 

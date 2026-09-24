@@ -33,10 +33,15 @@ python /SGRNJ06/randd/USER/wangjingshen/bioinfo_tools/projects/space/space_anno/
 
 ## 参数
 --space_dir      空转 celescope 目录
---sc             单细胞参考 rds   
+
+--sc             单细胞参考 rds
+
 --score_filter   预测置信度阈值，预测得分低于这个阈值的 spot 标记成 Unassigned，不分配细胞类型, 默认为0
+
 --image_alpha    HE 图的透明度, 默认为 0.5
+
 --resolution     分辨率, 默认为 0.3
+
 --name           样本名
 
 
