@@ -80,7 +80,7 @@ spot 是混合位置, 数值可以小于 1, 小数是模型估计期望细胞数
 3.分细胞类型展示估计绝对细胞数量
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202608_cell2location/cell2location_multi_panel.png"
-      alt="Editor" width = "800">
+      alt="Editor" width = "1000">
 </div>
 
 

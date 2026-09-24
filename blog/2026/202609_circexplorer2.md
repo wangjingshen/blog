@@ -1,7 +1,15 @@
 ## 前言
 此脚本用于 celescope FFPE 识别 circRNA，分析基于 CIRCexplorer2 [1]。
 
-GEXSCOPE FFPE 单细胞核转录组（新格元）采用随机引物原位反转录，不依赖 polyA 捕获，属于无偏全转录组策略。和基于 oligo-dT 的 polyA 单细胞转录组不同，理论上可以捕获无 polyA 尾的环状 RNA 片段，具备检测 circRNA 的基础可能性。但该体系存在两个"短板"，会直接限制 BSJ（反向剪接断点）的检出：1）核内 circRNA 本底丰度低，绝大多数外显子来源 circRNA 成熟后会转运至细胞质，细胞核内仅少量内含子 ciRNA 及部分滞留核内的外显子型 circRNA，因此天然丢失大量胞质环状 RNA；2）FFPE 交联导致 RNA 断裂，容易破坏 BSJ 断点：福尔马林固定带来的交联以及后续脱交联加热处理会打断 RNA。即便随机引物扩增到 circRNA 的部分序列，一旦反向剪接断点被打断，就无法生成跨越 BSJ 的嵌合 reads，STAR 和 CIRCexplorer2 也就不能识别出 circRNA。蜡块储存时间越长、RNA 的 DV200 （长度＞200 nt 的 RNA 片段，占全部 RNA 片段的百分比）越低，BSJ 的丢失情况会越明显。
+新格元 FFPE 单细胞核转录组采用随机引物原位反转录，不依赖 polyA 捕获，属于无偏全转录组策略。和基于 oligo-dT 的 polyA 单细胞转录组不同，理论上可以捕获无 polyA 尾的环状 RNA 片段，具备检测 circRNA 的基础可能性。
+
+但该体系存在两个"短板"，会直接限制 BSJ（反向剪接断点）的检出：
+
+1）核内 circRNA 本底丰度低，绝大多数外显子来源 circRNA 成熟后会转运至细胞质，细胞核内仅少量内含子 ciRNA 及部分滞留核内的外显子型 circRNA，因此天然丢失大量胞质环状 RNA；
+
+2）FFPE 交联导致 RNA 断裂，容易破坏 BSJ 断点：福尔马林固定带来的交联以及后续脱交联加热处理会打断 RNA。
+
+即便随机引物扩增到 circRNA 的部分序列，一旦反向剪接断点被打断，就无法生成跨越 BSJ 的嵌合 reads，STAR 和 CIRCexplorer2 也就不能识别出 circRNA。蜡块储存时间越长、RNA 的 DV200 （长度＞200 nt 的 RNA 片段，占全部 RNA 片段的百分比）越低，BSJ 的丢失情况会越明显。
 
 ## 分析步骤
 step1.使用 STAR 识别嵌合转录本, 参数参照已发表文献[2]
