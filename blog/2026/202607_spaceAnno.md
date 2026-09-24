@@ -5,15 +5,22 @@
 分析主要基于 seurat 包[1]
 
 方法1 seurat 标签转移
-step1 CCA 对齐：将参考数据集（有标签）和查询数据集（无标签）投影到共享低维空间，消除批次差异，让同源细胞重合。
-step2 MNN 找锚点：在共享空间中，寻找互相最近邻细胞对，作为跨数据集的可信匹配锚点。
+
+step1 CCA 对齐：将参考数据集（有标签）和查询数据集（无标签）投影到共享低维空间，消除批次差异，让同源细胞重合；
+
+step2 MNN 找锚点：在共享空间中，寻找互相最近邻细胞对，作为跨数据集的可信匹配锚点；
+
 step3 KNN 加权投票预测标签：对 query 每个细胞，根据邻近 ref 锚点的细胞类型、距离权重投票，得出最优细胞类型和置信分数。
 
 
 方法2 seurat RCTD 解卷积
+
 step1 构建参考谱：从注释好的单细胞 ref，计算每种细胞类型的平均基因表达特征谱。
+
 step2 平台效应校正：校正 scRNA 与空间 ST 不同测序平台的捕获效率差异。
+
 step3 泊松混合模型：假设每个 spot 的 UMI 计数，是多种细胞类型表达谱按未知比例线性叠加；用最大似然估计求解每个细胞类型占比PMC。
+
 step4 状态判定：根据拟合结果区分：singlet：主要一种细胞；doublet：两种细胞混合；reject：模型拟合很差，不可信 spot。
 
 
@@ -52,19 +59,19 @@ python /SGRNJ06/randd/USER/wangjingshen/bioinfo_tools/projects/space/space_anno/
 1.1 机械分群图
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202607_spaceAnno/space_seurat_clusters.png"
-      alt="Editor" width = "300">
+      alt="Editor" width = "500">
 </div>
 
 1.2 seurat 标签转移注释图
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202607_spaceAnno/space_clusters.png"
-      alt="Editor" width = "300">
+      alt="Editor" width = "500">
 </div>
 
 1.3 seurat RCTD 解卷积注释图
 <div align='left'>
       <img src="https://github.com/wangjingshen/blog/blob/master/image/2026/202607_spaceAnno/space_RCTD_clusters.png"
-      alt="Editor" width = "300">
+      alt="Editor" width = "500">
 </div>
 
 
